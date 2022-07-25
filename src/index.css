@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.App{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+    gap: 30px;
+
+}
+.quote i{
+    font-size: 60px;
+}
+.quote{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.quote_random{
+    text-align: center;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.button button{
+    border: none;
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    transition: all 200ms ease;
+}
+.button button:hover{
+    font-size: 2rem;
+    box-shadow: 0 0 5px #000;
+}
