@@ -8,7 +8,7 @@ const Quotes = ({randomColor, randomQuote, getRandomAll}) => {
     const backgroundStyle ={
         backgroundColor : randomColor
     }
-
+    
   return (
     <div className='card' style={quoteStyle}>
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'></link>
